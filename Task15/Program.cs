@@ -12,7 +12,9 @@ if (day<1 || day >7)
     Console.WriteLine("Invalid digit");
 }
 else
-Console.WriteLine(day>5? "Yes": "No");
+{
+    Console.WriteLine(day>5? "This day is a day-off": "This day is weekday");
+}    
 
 
 
